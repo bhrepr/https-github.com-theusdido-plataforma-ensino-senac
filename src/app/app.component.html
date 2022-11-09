@@ -1,0 +1,35 @@
+<h2 class="ti">Recados da Aretusa:</h2>
+    <br>
+
+    <form class="ca">
+        <div class="form-group">
+          <label >Seu nome completo</label>
+          <input type="nome" class="form-control" placeholder="Escreva aqui">
+          <small id="emailHelp" class="form-text text-muted">Somente a coordenação vizualiza os recados.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Recado</label>
+          <input type="text" class="form-control"  placeholder="Escreva aqui">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+<div class="container">
+    <br>
+  <div class="toast" data-autohide="false">
+    <div class="toast-header">
+      <strong class="mr-auto text-primary">Aretusa Larroyd</strong>
+      <small class="text-muted">Coordenadora</small>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+    </div>
+    <div class="toast-body">
+       Vamos fazer o terceiro trimestre show de bola hein!
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.toast').toast('show');
+});
+</script>
